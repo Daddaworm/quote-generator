@@ -1,0 +1,63 @@
+body {
+    background: black url(images/iih76mcxbgn51.jpeg) no-repeat fixed left;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: xx-large;
+    color:rgb(180, 191, 209);
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-shadow: 8px 2px 7px #111111;
+    font-size: x large;
+    margin: 3px;
+}
+
+li {
+    color: rgb(255, 255, 255);
+}
+
+
+#quote-content-div {
+    background-color: rgb(243, 237, 237);
+    position: absolute;
+    margin: 1% 33%;
+    display: flex;
+    height: 50px;
+    width: 500px;
+    padding: 70px 70px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    opacity: 0.5;
+    
+}
+
+
+
+#new-quote-div {
+   position: absolute;
+   margin: 14% 43%;
+   width: 500px;
+   height: auto;
+    
+}
+
+#list-div {
+    position: absolute;
+    min-width: 300px;
+    min-height: 300px;
+    overflow-y:auto;
+    position: fixed;
+    margin: 18% 32%;
+    height: 50%;
+    width: 34%;
+}
+
+audio {
+    margin: 33% 0.5%;
+}
