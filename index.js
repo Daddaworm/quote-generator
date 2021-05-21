@@ -25,7 +25,7 @@ const contentDiv = document.querySelector('#quote-content-div')
 const p = document.createElement('p')
 
 function getNewQuote(quoteData){ //3. DATA FROM FETCH IS  PASSED INTO THIS FUNCTION.  IT IS THEN BROKEN DOWN INTO SEPARATE ELEMENTS BASED ON QUOTE OR AUTHOR
-    console.log(quoteData); // CONSOLE LOGED TO ENSURE DATE IS BEING PASSED CORRECTLEY. (AND IT IS!)
+    //console.log(quoteData); // CONSOLE LOGED TO ENSURE DATE IS BEING PASSED CORRECTLEY. (AND IT IS!)
     h3.style.textAlign ="center"; //<----not sure this is even working.....test it out without this line of code to ensure that it is working correctly. Delete if not nessecary.
     h3.setAttribute('id', 'quotes') // ADDS AN id ATTRIBUTE OF 'quotes' TO THE <h3> TAG.
     h3.innerHTML = quoteData.content; // PASSES THE QUOTE DATA INTO <H3> ELEMENT
@@ -52,10 +52,3 @@ function addToList(){  // FIRED EACH TIME THE CLIENT PRESSES THE "ADD TO LIST" B
   
 }
 
-function copy() {
-  let copyText = document.querySelector("#list-ul").innerHTML;
-  copyText.select();
-  document.execCommand("copy");
-}
-
-document.querySelector("#copy-list").addEventListener("click", copy);
